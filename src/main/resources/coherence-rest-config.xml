@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://xmlns.oracle.com/coherence/coherence-rest-config"
+      xsi:schemaLocation=
+              "http://xmlns.oracle.com/coherence/coherence-rest-config
+      coherence-rest-config.xsd">
+    <resources>
+        <resource>
+            <cache-name>dist-http-example</cache-name>
+            <key-class>java.lang.String</key-class>
+            <value-class>demo.Person</value-class>
+        </resource>
+    </resources>
+</rest>
